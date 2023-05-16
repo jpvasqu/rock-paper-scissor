@@ -50,9 +50,7 @@ for round_count in range(1,number_of_rounds+1):
 
             print(f"Score: Player {player_score}; Computer {computer_score}\n")
 
-            if number_of_rounds == ():
-                game_running = False
-            break
+        
     computer = random.choice(possible_actions)
 
     print(f"\nplayer chose {player}, computer chose {computer}.\n")
@@ -74,9 +72,7 @@ for round_count in range(1,number_of_rounds+1):
 
         print(f"Score: Player {player_score}; Computer {computer_score}\n")
 
-        if number_of_rounds == ():
-            game_running = False
-        break
+      
     
 
 if player_score == computer_score: 
